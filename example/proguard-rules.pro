@@ -23,3 +23,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class org.xwalk.core.** { *;}
+-keep class org.chromium.** { *;}
+-keepattributes **
+-keep class  junit.framework.**{*;}
+-dontwarn javax.annotation.**
